@@ -134,11 +134,12 @@ h2 {
 .text__item:last-child {
 	margin: 0;
 }
-
+/*--------------------------------------------------------------------------------------*/
 .moments {
-	background-color: #794f45;
+	/*background: url("../img/image-star.jpg") 0 0 no-repeat;*/
+	background-color: #000;
 	padding: 70px 0;
-}
+	}
 .moments__container {
 }
 .moments__items {
@@ -147,10 +148,9 @@ h2 {
 }
 .moments__item {
 	flex: 0 1 25%;
-	padding: 0px 20px;
+	padding: 0px 20px 20px 0;
 	text-align: center;
 }
-
 .moments__image {
 	width: 200px;
 	height: 200px;
